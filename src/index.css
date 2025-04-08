@@ -31,8 +31,13 @@
   --font-nunito: 'Nunito Sans', sans-serif;
 }
 
+@utility container {
+  padding-inline: 1.5rem;
+  margin-inline: auto;
+}
+
 :root {
-  --radius: 0.625rem;
+  --radius: 0.5rem;
   --background: hsl(0, 0%, 98%);
   --foreground: hsl(200, 15%, 8%);
   --card: hsl(0, 0%, 100%);
@@ -45,11 +50,11 @@
   --secondary-foreground: hsl(209, 23%, 22%);
   --muted: hsl(0, 0%, 100%);
   --muted-foreground: hsl(0, 0%, 52%);
-  --accent: hsl(0, 0%, 100%);
+  --accent: hsl(0, 0%, 90%);
   --accent-foreground: hsl(209, 23%, 22%);
   --destructive: hsl(0, 100%, 50%);
-  --border: hsl(0, 0%, 52%);
-  --input: hsl(0, 0%, 52%);
+  --border: hsl(0, 0%, 85%);
+  --input: hsl(0, 0%, 90%);
   --ring: hsl(209, 23%, 22%);
 }
 
@@ -64,9 +69,9 @@
   --primary-foreground: hsl(209, 23%, 22%);
   --secondary: hsl(207, 26%, 17%);
   --secondary-foreground: hsl(0, 0%, 100%);
-  --muted: hsl(207, 26%, 17%);
+  --muted: hsl(209, 23%, 22%);
   --muted-foreground: hsl(0, 0%, 100%);
-  --accent: hsl(207, 26%, 17%);
+  --accent: hsl(207, 26%, 25%);
   --accent-foreground: hsl(0, 0%, 100%);
   --destructive: hsl(0, 100%, 50%);
   --border: hsl(209, 23%, 22%);
