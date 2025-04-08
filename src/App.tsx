@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import Home from './pages/Home'
 import CountryDetail from './pages/CountryDetail'
+import NotFound from './pages/NotFound'
 import { MoonIcon } from 'lucide-react'
 import { useState, useEffect } from 'react'
 import { cn } from './lib/utils'
@@ -37,6 +38,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/country/:code" element={<CountryDetail />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
       </div>
